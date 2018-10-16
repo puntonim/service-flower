@@ -1,0 +1,90 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+    method: GET
+    uri: https://inspire-qa-worker3-task1.cern.ch/api/workers?workername=celery@inspire-qa-worker3-task5.cern.ch
+  response:
+    body: {string: !!python/unicode '{"celery@inspire-qa-worker3-task5.cern.ch":
+        {"scheduled": [], "stats": {"clock": "115676", "pid": 2316, "broker": {"transport_options":
+        {}, "failover_strategy": "round-robin", "login_method": "AMQPLAIN", "hostname":
+        "inspire-qa-broker1.cern.ch", "userid": "inspire", "insist": false, "connect_timeout":
+        4, "ssl": false, "virtual_host": "inspire", "heartbeat": 120.0, "uri_prefix":
+        null, "port": 5672, "transport": "amqp", "alternates": []}, "prefetch_count":
+        8, "total": {"invenio_workflows.tasks.resume": 12, "inspirehep.modules.records.tasks.index_modified_citations_from_record":
+        169, "inspire_crawler.tasks.schedule_crawl": 3, "inspirehep.modules.migrator.tasks.continuous_migration":
+        16, "inspirehep.modules.orcid.tasks.orcid_push": 1102}, "rusage": {"majflt":
+        91, "nsignals": 0, "minflt": 120613, "maxrss": 194228, "inblock": 96392, "nswap":
+        0, "idrss": 0, "msgrcv": 0, "ixrss": 0, "isrss": 0, "nvcsw": 117884, "stime":
+        7.173639, "oublock": 104, "msgsnd": 0, "nivcsw": 667, "utime": 62.23651},
+        "pool": {"processes": [2467, 2469], "max-concurrency": 2, "timeouts": [0,
+        0], "writes": {"all": "59.29%, 40.71%", "avg": "50.00%", "inqueues": {"active":
+        0, "total": 2}, "strategy": "fair", "raw": "772, 530", "total": 1302}, "put-guarded-by-semaphore":
+        false, "max-tasks-per-child": "N/A"}}, "revoked": [], "timestamp": 1539692391.175565,
+        "registered": ["inspire_crawler.tasks.schedule_crawl", "inspire_crawler.tasks.submit_results",
+        "inspirehep.modules.hal.tasks.hal_push", "inspirehep.modules.migrator.tasks.continuous_migration",
+        "inspirehep.modules.migrator.tasks.migrate_recids_from_mirror", "inspirehep.modules.orcid.tasks.import_legacy_orcid_tokens",
+        "inspirehep.modules.orcid.tasks.orcid_push", "inspirehep.modules.records.tasks.batch_reindex",
+        "inspirehep.modules.records.tasks.index_modified_citations_from_record", "inspirehep.modules.records.tasks.merge_merged_records",
+        "inspirehep.modules.records.tasks.update_refs", "inspirehep.modules.refextract.tasks.create_journal_kb_file",
+        "invenio_accounts.tasks.clean_session_table", "invenio_accounts.tasks.send_security_email",
+        "invenio_files_rest.tasks.merge_multipartobject", "invenio_files_rest.tasks.migrate_file",
+        "invenio_files_rest.tasks.remove_expired_multipartobjects", "invenio_files_rest.tasks.remove_file_data",
+        "invenio_files_rest.tasks.schedule_checksum_verification", "invenio_files_rest.tasks.verify_checksum",
+        "invenio_indexer.tasks.delete_record", "invenio_indexer.tasks.index_record",
+        "invenio_indexer.tasks.process_bulk_queue", "invenio_mail.tasks.send_email",
+        "invenio_oaiharvester.tasks.get_specific_records", "invenio_oaiharvester.tasks.list_records_from_dates",
+        "invenio_records.tasks.api.create_record", "invenio_workflows.tasks.restart",
+        "invenio_workflows.tasks.resume", "invenio_workflows.tasks.start", "invenio_workflows_ui.tasks.batch_reindex",
+        "invenio_workflows_ui.tasks.resolve_actions"], "active": [], "conf": {"ADMIN_TEMPLATE_MODE":
+        "bootstrap3", "ARXIV_API_URL": "********"},
+        "active_queues": [{"no_declare": null, "exclusive": false, "max_priority":
+        null, "exchange": {"no_declare": false, "name": "celery", "durable": true,
+        "delivery_mode": null, "passive": false, "arguments": null, "type": "direct",
+        "auto_delete": false}, "auto_delete": false, "expires": null, "routing_key":
+        "celery", "no_ack": false, "alias": null, "message_ttl": null, "max_length":
+        null, "max_length_bytes": null, "binding_arguments": null, "queue_arguments":
+        null, "bindings": [], "consumer_arguments": null, "durable": true, "name":
+        "celery"}, {"no_declare": null, "exclusive": false, "max_priority": null,
+        "exchange": {"no_declare": false, "name": "harvests", "durable": true, "delivery_mode":
+        null, "passive": false, "arguments": null, "type": "direct", "auto_delete":
+        false}, "auto_delete": false, "expires": null, "routing_key": "harvests",
+        "no_ack": false, "alias": null, "message_ttl": null, "max_length": null, "max_length_bytes":
+        null, "binding_arguments": null, "queue_arguments": null, "bindings": [],
+        "consumer_arguments": null, "durable": true, "name": "harvests"}, {"no_declare":
+        null, "exclusive": false, "max_priority": null, "exchange": {"no_declare":
+        false, "name": "migrator", "durable": true, "delivery_mode": null, "passive":
+        false, "arguments": null, "type": "direct", "auto_delete": false}, "auto_delete":
+        false, "expires": null, "routing_key": "migrator", "no_ack": false, "alias":
+        null, "message_ttl": null, "max_length": null, "max_length_bytes": null, "binding_arguments":
+        null, "queue_arguments": null, "bindings": [], "consumer_arguments": null,
+        "durable": true, "name": "migrator"}, {"no_declare": null, "exclusive": false,
+        "max_priority": null, "exchange": {"no_declare": false, "name": "orcid_push",
+        "durable": true, "delivery_mode": null, "passive": false, "arguments": null,
+        "type": "direct", "auto_delete": false}, "auto_delete": false, "expires":
+        null, "routing_key": "orcid_push", "no_ack": false, "alias": null, "message_ttl":
+        null, "max_length": null, "max_length_bytes": null, "binding_arguments": null,
+        "queue_arguments": null, "bindings": [], "consumer_arguments": null, "durable":
+        true, "name": "orcid_push"}, {"no_declare": null, "exclusive": false, "max_priority":
+        null, "exchange": {"no_declare": false, "name": "orcid_push_legacy_tokens",
+        "durable": true, "delivery_mode": null, "passive": false, "arguments": null,
+        "type": "direct", "auto_delete": false}, "auto_delete": false, "expires":
+        null, "routing_key": "orcid_push_legacy_tokens", "no_ack": false, "alias":
+        null, "message_ttl": null, "max_length": null, "max_length_bytes": null, "binding_arguments":
+        null, "queue_arguments": null, "bindings": [], "consumer_arguments": null,
+        "durable": true, "name": "orcid_push_legacy_tokens"}], "reserved": []}}'}
+    headers:
+      connection: [keep-alive]
+      content-length: ['95084']
+      content-type: [application/json; charset=UTF-8]
+      date: ['Tue, 16 Oct 2018 12:24:29 GMT']
+      etag: [W/"0cb59bddc5a02c29a3ee4ce818d0757ca57bf322"]
+      server: [nginx/1.12.2]
+      strict-transport-security: [max-age=15768000]
+      transfer-encoding: [chunked]
+      vary: [Accept-Encoding]
+    status: {code: 200, message: OK}
+version: 1

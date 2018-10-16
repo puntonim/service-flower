@@ -1,0 +1,4 @@
+# Additional packages
+-r requirements/requirements-base.txt
+-r requirements/requirements-dev.txt
+-r requirements/requirements-testing.txt

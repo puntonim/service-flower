@@ -1,0 +1,62 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+    method: GET
+    uri: https://inspire-qa-worker3-task1.cern.ch/api/tasks?&limit=2
+  response:
+    body: {string: !!python/unicode '{"508fe6e2-ac99-4096-ad8d-d572574418de": {"root_id":
+        "508fe6e2-ac99-4096-ad8d-d572574418de", "result": null, "children": [], "uuid":
+        "508fe6e2-ac99-4096-ad8d-d572574418de", "clock": 1722994, "exchange": null,
+        "routing_key": null, "failed": null, "state": "STARTED", "client": null, "parent_id":
+        null, "kwargs": "{''skip_files'': True}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539608306.000812, "timestamp": 1539608306.000812,
+        "args": "([1360396, 749262, 749260, 749258, 749255, 740846, 749261, 1360460,
+        1360459, 749923, 749922, 749921, 749919, 749918, 749915, 1360458, 220159,
+        1360457, 1360454, 749920, 1360577, 1360576, 749785, 1360575, 1360574, 159640,
+        435292, 435291, 1569880, 1569879, 752589, 435290, 435289, 435287, 435286,
+        435285, 1569877, 1569876, 1360573, 1360572, 1360570, 1360569, 434815, 1360568,
+        158304, 216677, 1363331, 752676, 752008, 549556, 549553, 752675, 752674, 752673,
+        752672, 752671, 752670, 752668, 1363330, 435187, 1360394, 1360393, 1360392,
+        1360391, 1360390, 216676, 1360453, 1360452, 749370, 749369, 749362, 740784,
+        1360451, 262229, 749371, 1360388, 1360387, 262227, 1360386, 1360385, 1360384,
+        158850, 158849, 434814, 1360567, 1360566, 1360565, 1360564, 960871, 749398,
+        749397, 749396, 159634, 216357, 749391, 1360381, 1360380, 1360379, 1360377,
+        960865],)", "rejected": null, "name": "inspirehep.modules.migrator.tasks.migrate_recids_from_mirror",
+        "received": 1539608065.760894, "exception": null, "revoked": null, "succeeded":
+        null, "traceback": null, "eta": null, "retried": null, "runtime": null, "root":
+        "508fe6e2-ac99-4096-ad8d-d572574418de"}, "46b54392-1fb1-44bc-ba8f-f56651ce76b2":
+        {"root_id": "46b54392-1fb1-44bc-ba8f-f56651ce76b2", "result": null, "children":
+        [], "uuid": "46b54392-1fb1-44bc-ba8f-f56651ce76b2", "clock": 1722995, "exchange":
+        null, "routing_key": null, "failed": null, "state": "RECEIVED", "client":
+        null, "parent_id": null, "kwargs": "{''skip_files'': True}", "sent": null,
+        "expires": null, "parent": null, "retries": 0, "started": null, "timestamp":
+        1539608306.002369, "args": "([434040, 1356021, 434041, 960396, 154528, 154527,
+        1355972, 1355971, 756997, 173938, 960363, 433968, 960360, 1568349, 743635,
+        743634, 743633, 433966, 433965, 160837, 1489097, 1488555, 434018, 1568381,
+        434017, 434015, 434014, 434013, 433987, 433986, 960375, 433985, 433984, 1486396,
+        433982, 1568364, 1355970, 1356611, 434472, 1356610, 434471, 434470, 1356609,
+        1356608, 1356607, 746429, 746425, 746424, 746422, 746421, 760608, 1356020,
+        761262, 434039, 1356019, 434525, 960741, 434524, 1356647, 173937, 154274,
+        154270, 960359, 1483476, 743856, 743853, 433964, 433963, 433962, 1483181,
+        1483125, 540373, 154987, 1355983, 1568380, 740778, 1487599, 1355982, 1355981,
+        1356018, 757003, 743943, 743942, 743941, 1356016, 1356015, 434036, 1356014,
+        1356013, 1568699, 1568698, 1419668, 1356640, 1620753, 1616990, 1568695, 154775,
+        960373, 433981, 433980],)", "rejected": null, "name": "inspirehep.modules.migrator.tasks.migrate_recids_from_mirror",
+        "received": 1539608306.002369, "exception": null, "revoked": null, "succeeded":
+        null, "traceback": null, "eta": null, "retried": null, "runtime": null, "root":
+        "46b54392-1fb1-44bc-ba8f-f56651ce76b2"}}'}
+    headers:
+      connection: [keep-alive]
+      content-length: ['3194']
+      content-type: [application/json; charset=UTF-8]
+      date: ['Mon, 15 Oct 2018 12:58:27 GMT']
+      etag: [W/"a4e4503203bb754ecff15b208c5510df4ea49050"]
+      server: [nginx/1.12.2]
+      strict-transport-security: [max-age=15768000]
+      vary: [Accept-Encoding]
+    status: {code: 200, message: OK}
+version: 1

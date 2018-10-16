@@ -1,0 +1,247 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+    method: GET
+    uri: https://inspire-qa-worker3-task1.cern.ch/api/tasks?taskname=inspirehep.modules.migrator.tasks.continuous_migration&limit=25
+  response:
+    body: {string: !!python/unicode '{"4958e1b9-9ce4-4bc9-a542-788da365abea": {"root_id":
+        "4958e1b9-9ce4-4bc9-a542-788da365abea", "result": "None", "children": [],
+        "uuid": "4958e1b9-9ce4-4bc9-a542-788da365abea", "clock": 1720866, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539608127.957377, "timestamp": 1539608127.961835,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539607737.384467, "exception": null, "revoked": null, "succeeded":
+        1539608127.961835, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.004430131055414677, "root": "4958e1b9-9ce4-4bc9-a542-788da365abea"}, "6ee7e4f1-5fb9-42e9-a389-e8f090d0194f":
+        {"root_id": "6ee7e4f1-5fb9-42e9-a389-e8f090d0194f", "result": "None", "children":
+        [], "uuid": "6ee7e4f1-5fb9-42e9-a389-e8f090d0194f", "clock": 1726094, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539608559.935983, "timestamp": 1539608559.942736,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539608217.402913, "exception": null, "revoked": null, "succeeded":
+        1539608559.942736, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.006943360436707735, "root": "6ee7e4f1-5fb9-42e9-a389-e8f090d0194f"}, "bb8e70ce-7369-4d2b-9ad5-d0d5e73da61d":
+        {"root_id": "bb8e70ce-7369-4d2b-9ad5-d0d5e73da61d", "result": "None", "children":
+        [], "uuid": "bb8e70ce-7369-4d2b-9ad5-d0d5e73da61d", "clock": 1715682, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539607702.322962, "timestamp": 1539607702.330349,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539607260.67576, "exception": null, "revoked": null, "succeeded":
+        1539607702.330349, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.006761687807738781, "root": "bb8e70ce-7369-4d2b-9ad5-d0d5e73da61d"}, "f0b19735-4192-493b-9357-aa6f6f482bfa":
+        {"root_id": "f0b19735-4192-493b-9357-aa6f6f482bfa", "result": "None", "children":
+        [], "uuid": "f0b19735-4192-493b-9357-aa6f6f482bfa", "clock": 1723042, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539608310.492463, "timestamp": 1539608310.500072,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539608118.480804, "exception": null, "revoked": null, "succeeded":
+        1539608310.500072, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.007589638698846102, "root": "f0b19735-4192-493b-9357-aa6f6f482bfa"}, "882a36b2-4ae9-479e-a8fc-1903991a0c98":
+        {"root_id": "882a36b2-4ae9-479e-a8fc-1903991a0c98", "result": "None", "children":
+        [], "uuid": "882a36b2-4ae9-479e-a8fc-1903991a0c98", "clock": 1720865, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539608128.668529, "timestamp": 1539608128.676605,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539607795.702246, "exception": null, "revoked": null, "succeeded":
+        1539608128.676605, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.008070183917880058, "root": "882a36b2-4ae9-479e-a8fc-1903991a0c98"}, "718c6d7e-d6e6-4e66-aa93-4bc2238b524b":
+        {"root_id": "718c6d7e-d6e6-4e66-aa93-4bc2238b524b", "result": "None", "children":
+        [], "uuid": "718c6d7e-d6e6-4e66-aa93-4bc2238b524b", "clock": 1716058, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539607731.236405, "timestamp": 1539607731.242586,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539607388.764372, "exception": null, "revoked": null, "succeeded":
+        1539607731.242586, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.0059685660526156425, "root": "718c6d7e-d6e6-4e66-aa93-4bc2238b524b"}, "8d977cd0-4842-48ea-a809-de3120a5ee66":
+        {"root_id": "8d977cd0-4842-48ea-a809-de3120a5ee66", "result": null, "children":
+        [], "uuid": "8d977cd0-4842-48ea-a809-de3120a5ee66", "clock": 1726428, "exchange":
+        null, "routing_key": null, "failed": null, "state": "RECEIVED", "client":
+        null, "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": null, "timestamp": 1539608589.231824, "args":
+        "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539608589.231824, "exception": null, "revoked": null, "succeeded":
+        null, "traceback": null, "eta": null, "retried": null, "runtime": null, "root":
+        "8d977cd0-4842-48ea-a809-de3120a5ee66"}, "39fda820-a1bb-43df-aa8b-edae53caccaf":
+        {"root_id": "39fda820-a1bb-43df-aa8b-edae53caccaf", "result": "None", "children":
+        [], "uuid": "39fda820-a1bb-43df-aa8b-edae53caccaf", "clock": 1722993, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539608305.993467, "timestamp": 1539608305.997806,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539608036.134266, "exception": null, "revoked": null, "succeeded":
+        1539608305.997806, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.0037125260569155216, "root": "39fda820-a1bb-43df-aa8b-edae53caccaf"}, "7c366bbb-4305-46f1-9946-d5d1f65c9633":
+        {"root_id": "7c366bbb-4305-46f1-9946-d5d1f65c9633", "result": "None", "children":
+        [], "uuid": "7c366bbb-4305-46f1-9946-d5d1f65c9633", "clock": 1725031, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539608474.261937, "timestamp": 1539608474.270277,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539608155.452418, "exception": null, "revoked": null, "succeeded":
+        1539608474.270277, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.0074948412366211414, "root": "7c366bbb-4305-46f1-9946-d5d1f65c9633"}, "b890e490-83a9-4777-940c-0f574aa68c01":
+        {"root_id": "b890e490-83a9-4777-940c-0f574aa68c01", "result": "None", "children":
+        [], "uuid": "b890e490-83a9-4777-940c-0f574aa68c01", "clock": 1718700, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539607950.691462, "timestamp": 1539607950.701114,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539607559.161613, "exception": null, "revoked": null, "succeeded":
+        1539607950.701114, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.009005166590213776, "root": "b890e490-83a9-4777-940c-0f574aa68c01"}, "913e0f84-25e1-4b01-824f-7ace37085ba5":
+        {"root_id": "913e0f84-25e1-4b01-824f-7ace37085ba5", "result": null, "children":
+        [], "uuid": "913e0f84-25e1-4b01-824f-7ace37085ba5", "clock": 1727921, "exchange":
+        null, "routing_key": null, "failed": null, "state": "RECEIVED", "client":
+        null, "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": null, "timestamp": 1539608705.798613, "args":
+        "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539608705.798613, "exception": null, "revoked": null, "succeeded":
+        null, "traceback": null, "eta": null, "retried": null, "runtime": null, "root":
+        "913e0f84-25e1-4b01-824f-7ace37085ba5"}, "52d4a2c2-f994-496d-a554-95b2c863b9ce":
+        {"root_id": "52d4a2c2-f994-496d-a554-95b2c863b9ce", "result": "None", "children":
+        [], "uuid": "52d4a2c2-f994-496d-a554-95b2c863b9ce", "clock": 1725307, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539608496.332558, "timestamp": 1539608496.338205,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539608278.019401, "exception": null, "revoked": null, "succeeded":
+        1539608496.338205, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.005089187063276768, "root": "52d4a2c2-f994-496d-a554-95b2c863b9ce"}, "b28083d8-18d5-4b45-8f52-eb984d75ff24":
+        {"root_id": "b28083d8-18d5-4b45-8f52-eb984d75ff24", "result": "None", "children":
+        [], "uuid": "b28083d8-18d5-4b45-8f52-eb984d75ff24", "clock": 1726953, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539608629.62607, "timestamp": 1539608629.63185,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539608399.718371, "exception": null, "revoked": null, "succeeded":
+        1539608629.63185, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.005631980951875448, "root": "b28083d8-18d5-4b45-8f52-eb984d75ff24"}, "237e3559-10ad-4529-8ff4-db10f760ea1c":
+        {"root_id": "237e3559-10ad-4529-8ff4-db10f760ea1c", "result": "None", "children":
+        [], "uuid": "237e3559-10ad-4529-8ff4-db10f760ea1c", "clock": 1718970, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539607972.327408, "timestamp": 1539607972.335254,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539607685.280193, "exception": null, "revoked": null, "succeeded":
+        1539607972.335254, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.008017675019800663, "root": "237e3559-10ad-4529-8ff4-db10f760ea1c"}, "329b85ec-7057-4d2b-9077-63636a1848c1":
+        {"root_id": "329b85ec-7057-4d2b-9077-63636a1848c1", "result": "None", "children":
+        [], "uuid": "329b85ec-7057-4d2b-9077-63636a1848c1", "clock": 1722990, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539608305.986538, "timestamp": 1539608305.99268,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539607978.078311, "exception": null, "revoked": null, "succeeded":
+        1539608305.99268, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.006529316771775484, "root": "329b85ec-7057-4d2b-9077-63636a1848c1"}, "f27cfc95-6397-4b8a-a094-509b2c75900e":
+        {"root_id": "f27cfc95-6397-4b8a-a094-509b2c75900e", "result": "None", "children":
+        [], "uuid": "f27cfc95-6397-4b8a-a094-509b2c75900e", "clock": 1721181, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539608154.016975, "timestamp": 1539608154.023709,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539607928.006553, "exception": null, "revoked": null, "succeeded":
+        1539608154.023709, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.006352623924612999, "root": "f27cfc95-6397-4b8a-a094-509b2c75900e"}, "cba8f6da-cc05-47de-a22d-be54d775bcc7":
+        {"root_id": "cba8f6da-cc05-47de-a22d-be54d775bcc7", "result": "None", "children":
+        [], "uuid": "cba8f6da-cc05-47de-a22d-be54d775bcc7", "clock": 1718451, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539607930.314013, "timestamp": 1539607930.322193,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539607507.24552, "exception": null, "revoked": null, "succeeded":
+        1539607930.322193, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.008124635089188814, "root": "cba8f6da-cc05-47de-a22d-be54d775bcc7"}, "d59a97e9-5349-400f-b5d9-ce388753e816":
+        {"root_id": "d59a97e9-5349-400f-b5d9-ce388753e816", "result": null, "children":
+        [], "uuid": "d59a97e9-5349-400f-b5d9-ce388753e816", "clock": 1727037, "exchange":
+        null, "routing_key": null, "failed": null, "state": "RECEIVED", "client":
+        null, "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": null, "timestamp": 1539608637.034869, "args":
+        "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539608637.034869, "exception": null, "revoked": null, "succeeded":
+        null, "traceback": null, "eta": null, "retried": null, "runtime": null, "root":
+        "d59a97e9-5349-400f-b5d9-ce388753e816"}, "e276fa92-4a06-4274-bfe8-b12e21aca1fd":
+        {"root_id": "e276fa92-4a06-4274-bfe8-b12e21aca1fd", "result": "None", "children":
+        [], "uuid": "e276fa92-4a06-4274-bfe8-b12e21aca1fd", "clock": 1716055, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539607731.228479, "timestamp": 1539607731.235178,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539607318.397549, "exception": null, "revoked": null, "succeeded":
+        1539607731.235178, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.0070193251594901085, "root": "e276fa92-4a06-4274-bfe8-b12e21aca1fd"}, "869b7ba4-dbab-482b-a359-400b67c43eb1":
+        {"root_id": "869b7ba4-dbab-482b-a359-400b67c43eb1", "result": "None", "children":
+        [], "uuid": "869b7ba4-dbab-482b-a359-400b67c43eb1", "clock": 1720819, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539608123.792733, "timestamp": 1539608123.797176,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539607862.273609, "exception": null, "revoked": null, "succeeded":
+        1539608123.797176, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.004002057947218418, "root": "869b7ba4-dbab-482b-a359-400b67c43eb1"}, "88dd64ae-3124-4e64-971d-bec9e833841b":
+        {"root_id": "88dd64ae-3124-4e64-971d-bec9e833841b", "result": "None", "children":
+        [], "uuid": "88dd64ae-3124-4e64-971d-bec9e833841b", "clock": 1718648, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539607945.15144, "timestamp": 1539607945.158547,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539607623.929575, "exception": null, "revoked": null, "succeeded":
+        1539607945.158547, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.006264287047088146, "root": "88dd64ae-3124-4e64-971d-bec9e833841b"}, "8d45bc77-038a-43d3-9b10-92361e61a46f":
+        {"root_id": "8d45bc77-038a-43d3-9b10-92361e61a46f", "result": "None", "children":
+        [], "uuid": "8d45bc77-038a-43d3-9b10-92361e61a46f", "clock": 1726983, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539608633.157211, "timestamp": 1539608633.163757,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539608461.684412, "exception": null, "revoked": null, "succeeded":
+        1539608633.163757, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.006509270053356886, "root": "8d45bc77-038a-43d3-9b10-92361e61a46f"}, "b6c76a12-c688-4150-ae42-43bd4685b955":
+        {"root_id": "b6c76a12-c688-4150-ae42-43bd4685b955", "result": "None", "children":
+        [], "uuid": "b6c76a12-c688-4150-ae42-43bd4685b955", "clock": 1716835, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539607795.716215, "timestamp": 1539607795.724917,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539607435.777959, "exception": null, "revoked": null, "succeeded":
+        1539607795.724917, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.008352098986506462, "root": "b6c76a12-c688-4150-ae42-43bd4685b955"}, "5216bb3d-5d68-4511-a9bc-7a39defb515a":
+        {"root_id": "5216bb3d-5d68-4511-a9bc-7a39defb515a", "result": "None", "children":
+        [], "uuid": "5216bb3d-5d68-4511-a9bc-7a39defb515a", "clock": 1726426, "exchange":
+        null, "routing_key": null, "failed": null, "state": "SUCCESS", "client": null,
+        "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": 1539608589.219543, "timestamp": 1539608589.227798,
+        "args": "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539608337.515957, "exception": null, "revoked": null, "succeeded":
+        1539608589.227798, "traceback": null, "eta": null, "retried": null, "runtime":
+        0.008133438881486654, "root": "5216bb3d-5d68-4511-a9bc-7a39defb515a"}, "6fa07feb-b09a-4a78-ba21-632720a82afc":
+        {"root_id": "6fa07feb-b09a-4a78-ba21-632720a82afc", "result": null, "children":
+        [], "uuid": "6fa07feb-b09a-4a78-ba21-632720a82afc", "clock": 1725608, "exchange":
+        null, "routing_key": null, "failed": null, "state": "RECEIVED", "client":
+        null, "parent_id": null, "kwargs": "{}", "sent": null, "expires": null, "parent":
+        null, "retries": 0, "started": null, "timestamp": 1539608520.946734, "args":
+        "()", "rejected": null, "name": "inspirehep.modules.migrator.tasks.continuous_migration",
+        "received": 1539608520.946734, "exception": null, "revoked": null, "succeeded":
+        null, "traceback": null, "eta": null, "retried": null, "runtime": null, "root":
+        "6fa07feb-b09a-4a78-ba21-632720a82afc"}}'}
+    headers:
+      connection: [keep-alive]
+      content-length: ['19049']
+      content-type: [application/json; charset=UTF-8]
+      date: ['Mon, 15 Oct 2018 13:05:16 GMT']
+      etag: [W/"f61a6dff2d4e79507915f55e7abac27a3387ff66"]
+      server: [nginx/1.12.2]
+      strict-transport-security: [max-age=15768000]
+      vary: [Accept-Encoding]
+    status: {code: 200, message: OK}
+version: 1

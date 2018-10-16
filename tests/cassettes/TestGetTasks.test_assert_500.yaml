@@ -1,0 +1,16 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+    method: GET
+    uri: https://inspire-qa-worker3-task1.cern.ch/api/tasks?&limit=25
+  response:
+    body: {string: !!python/unicode '500 Internal Server Error'}
+    headers:
+      content-length: ['25']
+      content-type: [text/plain; charset=utf-8]
+    status: {code: 500, message: Internal Server Error}
+version: 1

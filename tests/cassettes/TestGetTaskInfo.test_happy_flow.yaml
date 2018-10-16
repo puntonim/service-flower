@@ -1,0 +1,43 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+    method: GET
+    uri: https://inspire-qa-worker3-task1.cern.ch/api/task/info/42c661b6-90e1-4087-8ba6-21a040d56c41
+  response:
+    body: {string: !!python/unicode '{"root_id": "42c661b6-90e1-4087-8ba6-21a040d56c41",
+        "result": null, "children": [], "uuid": "42c661b6-90e1-4087-8ba6-21a040d56c41",
+        "clock": 1798071, "exchange": null, "routing_key": null, "failed": null, "state":
+        "RECEIVED", "client": null, "parent_id": null, "kwargs": "{''skip_files'':
+        True}", "sent": null, "expires": null, "parent": null, "retries": 0, "started":
+        null, "timestamp": 1539614445.054455, "args": "([886360, 886359, 886358, 886357,
+        153183, 152570, 152549, 1541431, 886329, 886328, 886327, 886312, 886310, 564012,
+        387886, 1546567, 886283, 243603, 1435846, 886276, 886275, 886274, 886273,
+        886272, 845064, 829962, 886254, 886253, 886258, 886257, 886256, 278048, 331448,
+        1547798, 1547797, 277256, 276678, 752864, 1049485, 387859, 387858, 326270,
+        152192, 151974, 151816, 145908, 6642, 1049483, 1049482, 1049481, 886178, 1049480,
+        1079007, 218690, 218057, 216641, 1079006, 826691, 427696, 560617, 327610,
+        559984, 555771, 1281183, 826233, 825918, 886124, 216060, 387868, 886109, 1541305,
+        1450770, 1632161, 886083, 1632059, 886070, 886067, 886065, 1632048, 1377529,
+        1079005, 885989, 1632024, 1632023, 1632022, 695510, 813796, 885970, 885969,
+        885968, 885967, 885966, 885965, 885964, 885963, 1632021, 1632020, 885946,
+        885939, 885937],)", "worker": "celery@inspire-qa-worker3-task6.cern.ch", "rejected":
+        null, "name": "inspirehep.modules.migrator.tasks.migrate_recids_from_mirror",
+        "received": 1539614445.054455, "exception": null, "revoked": null, "succeeded":
+        null, "traceback": null, "eta": null, "retried": null, "runtime": null, "root":
+        "42c661b6-90e1-4087-8ba6-21a040d56c41"}'}
+    headers:
+      connection: [keep-alive]
+      content-length: ['1585']
+      content-type: [application/json; charset=UTF-8]
+      date: ['Mon, 15 Oct 2018 14:40:58 GMT']
+      etag: [W/"d49aab4474e68dc19beb6683105cd1f1ef8e3209"]
+      server: [nginx/1.12.2]
+      strict-transport-security: [max-age=15768000]
+      transfer-encoding: [chunked]
+      vary: [Accept-Encoding]
+    status: {code: 200, message: OK}
+version: 1

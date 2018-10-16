@@ -1,0 +1,16 @@
+pkgversion
+tox
+isort
+flake8
+six
+mock
+
+# PyTest for running the tests.
+pytest
+pytest-cov
+pytest-vcr
+
+# Docs
+sphinx
+# sphinxcontrib-plantuml
+sphinx_rtd_theme

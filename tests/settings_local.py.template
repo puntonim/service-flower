@@ -1,0 +1,7 @@
+# Create a file settings.local.py to add special settings for the flower client.
+# This file will be ignored by git.
+
+settings_local = dict(
+  HTTP_AUTH_USERNAME='user',
+  HTTP_AUTH_PASSWORD='pass',
+)
