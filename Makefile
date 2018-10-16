@@ -3,6 +3,7 @@
 # * virtualenv
 
 DEPS:=requirements.txt
+VIRTUALENV=$(shell which virtualenv)
 PIP:="venv/bin/pip"
 TWINE:="venv/bin/twine"
 CMD_FROM_VENV:=". venv/bin/activate; which"
@@ -17,19 +18,20 @@ tox: venv setup.py
 	$(TOX)
 
 pyclean:
-	@find . -name *.pyc -delete
-	@rm -rf *.egg-info build
-	@rm -rf coverage.xml .coverage
+	find . -name *.pyc -delete
+	rm -rf *.egg-info build
+	rm -rf coverage.xml .coverage
 
 clean: pyclean
-	@rm -rf venv
-	@rm -rf .tox
-	@rm -rf dist
+	rm -rf venv
+	rm -rf .tox
+	rm -rf dist
 
 venv:
-	@virtualenv venv
-	@$(PIP) install -U "pip>=10.0" -q
-	@$(PIP) install -r $(DEPS)
+	$(VIRTUALENV) -p $(shell which python2.7) venv
+	. venv/bin/activate
+	$(PIP) install -U "pip>=18.0" -q
+	$(PIP) install -r $(DEPS)
 
 test: clean tox
 
@@ -37,16 +39,16 @@ test/%: venv pyclean
 	$(TOX) -e $(TOX_PY_LIST) -- $*
 
 lint: venv
-	@$(TOX) -e lint
-	@$(TOX) -e isort-check
+	$(TOX) -e lint
+	$(TOX) -e isort-check
 
 isort: venv
-	@$(TOX) -e isort-fix
+	$(TOX) -e isort-fix
 
 setup.py: venv
 	$(PYTHON) setup_gen.py
-	@$(PYTHON) setup.py check --restructuredtext
+	$(PYTHON) setup.py check --restructuredtext
 
 publish: setup.py
 	$(PYTHON) setup.py sdist
-	@$(TWINE) upload dist/*
+	$(TWINE) upload dist/*
