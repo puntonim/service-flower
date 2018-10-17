@@ -20,5 +20,5 @@ setup(**{'author': 'puntonim',
  'packages': ['service_flower'],
  'tests_require': ['tox'],
  'url': 'https://github.com/puntonim/service-flower',
- 'version': '1.0.0',
+ 'version': '1.0.1',
  'zip_safe': False})
