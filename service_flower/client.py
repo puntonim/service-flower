@@ -11,11 +11,12 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 
 class FlowerClient(object):
-    REQUESTS_BASE_KWARGS = dict(
-        verify=False,
-        auth=(settings.HTTP_AUTH_USERNAME, settings.HTTP_AUTH_PASSWORD),
-        timeout=settings.REQUEST_TIMEOUT,
-    )
+    def __init__(self):
+        self.requests_base_kwargs = dict(
+            verify=False,
+            auth=(settings.HTTP_AUTH_USERNAME, settings.HTTP_AUTH_PASSWORD),
+            timeout=settings.REQUEST_TIMEOUT,
+        )
 
     def get_tasks(self, taskname='', state=None, limit=25):
         """
@@ -32,7 +33,7 @@ class FlowerClient(object):
 
         url = '{}/{}?{}'.format(settings.BASE_URL, endpoint, query)
 
-        response = requests.get(url, **self.REQUESTS_BASE_KWARGS)
+        response = requests.get(url, **self.requests_base_kwargs)
         return models.GetTasksResponse(response)
 
     def get_task_info(self, task_id):
@@ -43,7 +44,7 @@ class FlowerClient(object):
         endpoint = 'task/info'
         url = '{}/{}/{}'.format(settings.BASE_URL, endpoint, task_id)
 
-        response = requests.get(url, **self.REQUESTS_BASE_KWARGS)
+        response = requests.get(url, **self.requests_base_kwargs)
         return models.GetTaskInfoResponse(response)
 
     def get_workers(self, workername=None, status_only=False):
@@ -57,5 +58,5 @@ class FlowerClient(object):
 
         url = '{}/{}?{}'.format(settings.BASE_URL, endpoint, query)
 
-        response = requests.get(url, **self.REQUESTS_BASE_KWARGS)
+        response = requests.get(url, **self.requests_base_kwargs)
         return models.GetWorkersResponse(response)
